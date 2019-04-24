@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="exception" />
-        <module name="spring-boot" />
+        <module name="interceptor" />
         <module name="url" />
       </profile>
     </annotationProcessing>
@@ -15,6 +15,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="exception" options="-parameters" />
+      <module name="interceptor" options="-parameters" />
       <module name="url" options="-parameters" />
     </option>
   </component>
