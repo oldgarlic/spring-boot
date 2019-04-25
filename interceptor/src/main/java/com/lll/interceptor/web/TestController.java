@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("hi")
     public String testController(){
-        return "这是一个聚合工程";
+        System.out.println("我正在处理请求");
+        return "这是一个拦截器测试类";
     }
 }

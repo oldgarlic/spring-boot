@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="exception" />
         <module name="interceptor" />
+        <module name="mybatis" />
         <module name="url" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="exception" options="-parameters" />
       <module name="interceptor" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
       <module name="url" options="-parameters" />
     </option>
   </component>
